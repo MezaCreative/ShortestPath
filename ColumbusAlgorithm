@@ -1,0 +1,19 @@
+Initital Setup
+==============
+shortestDistances = empty
+PriorityQueue: (Columbus: 0.0)
+
+After Iteration 0
+=================
+shortestDistances: (Columbus: 0.0)
+PriorityQueue: (Chicago: 0.5), (Miami: 2.0)
+
+After Iteration 1
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}
+PriorityQueue: (Columbus:1), (StLouis:1), (NewYork:2), (Miami: 2.0), (Boston:2.5),  (Denver:3), (Seattle:3.5)
+
+After Iteration 2
+=================
+shortestDistance: {Columbus:0.0}, {Chicago:0.5}, {StLouis:3}
+PriorityQueue: (Columbus:1), (NewYork:2), (Miami: 2.0), (Boston:2.5), (Denver:3), (Seattle:3.5), (Atlanta:4.0), (Dallas:4.0) (Chicago:4.5), 
